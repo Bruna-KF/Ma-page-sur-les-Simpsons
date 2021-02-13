@@ -1,77 +1,76 @@
 <!DOCTYPE html>
 <html lang="fr">
-
-<head>
-    <title>Les Simpsons</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <style>
-        header {
-            text-align: center
-        }
-
-        footer {
-            text-align: center
-        }
-
-        nav {
-            background-color: rgb(100, 100, 100, 0.6);
-        }
-
-        main {
-            background-color: rgb(0, 0, 0, 0.8);
-        }
-
-        nav {
-            color: white;
-        }
-
-        main {
-            color: white;
-        }
-    </style>
-</head>
-
-<body class="fond">
-    <header>
-        <img src="Simpsons.png" alt="Simpsons" id="image">
-        <h1>Ma page sur les Simpsons</h1>
-        <p>Ils prédisent le futur depuis 1989. </p>
-    </header>
-    <nav>
-        <h2>Liens</h2>
-        <a href="https://en.wikipedia.org/wiki/The_Simpsons"> Page Wikipédia des Simpsons </a>
-    </nav>
-    <main>
-        <h3>Enfants Simpsons </h3>
-        <ul>
-            <li>Bart Simpson</li>
-            <li>Lisa Simpson</li>
-            <li>Maggie Simpson</li>
-        </ul>
-        <h3>Citations </h3>
-        <ol>
-            <li>"D'oh!"</li>
-            <li>"Excellent"</li>
-            <li>"Tidlidi"</li>
-
-        </ol>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,<br> when an unknown printer took a galley of type and scrambled it to make a type<br> specimen book. It has survived not only five centuries,
-            but also the leap into<br> electronic typesetting, remaining essentially unchanged.<br> It was popularised in the 1960s with the release of Letraset sheets containing.
-
-        <h3>Audio</h3>
-        <audio controls>
-            <source src="ressources/generique.mp3 " type="audio/mp3">
-        </audio>
-        <h3>Vidéo</h3>
-        <video width="320" height="240" controls>
-            <source src="ressources/wqt.mp4" type="video/mp4">
-        </video>
-    </main>
-    <footer>
-        <p>Wikipédia&reg; est une marque dépose de Wikimedia Fundation, Inc.</p>
-    </footer>
-</body>
-
+    <head>
+        <title>Les Simpsons</title>
+        <meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css">
+		<style>
+			header,footer{
+				text-align:center;
+			}
+			nav{
+				color:white;
+				background-color:rgba(100,100,100,0.6);
+			}
+			main{
+				color:white;
+				background-color:rgba(0,0,0,0.8);
+			}
+		</style>
+    </head>
+    <body class="fond">
+		<header>
+			<img id="image" src="https://upload.wikimedia.org/wikipedia/en/thumb/0/0d/Simpsons_FamilyPicture.png/220px-Simpsons_FamilyPicture.png" alt="La famille des Simpsons" width="200" height="100"/>
+			<h1 class="center">Ma page sur les Simpsons</h1>
+			<p class="center">
+				Ils prédisent le futur depuis 1989.
+			</p>
+		</header>
+        
+        <nav>
+			<h2>Liens</h2>
+			<a title="Vous serez redirigé sur une autre page" href="https://fr.wikipedia.org/wiki/Les_Simpson">Page Wikipédia des Simpsons</a>
+		</nav>
+		
+		<main>
+			<h3>Enfants Simpsons</h3>
+			<ul>
+				<li>Bart Simpson</li>
+				<li>Lisa Simpson</li>
+				<li>Maggie Simpson</li>
+			</ul>
+		
+			<h3>Citations</h3>
+			<ol>
+				<li>&laquo; D'Oh! &raquo;</li>
+				<li>&laquo; Excellent… &raquo;</li>
+				<li>&laquo; Tidlidi ! &raquo;</li>
+			</ol>
+		
+			<p style="font-family:Verdana;">
+				<span style="font-size:20px;">Lorem</span> ipsum dolor sit amet, consectetur adipiscing elit. <br>
+				Suspendisse in condimentum elit. Phasellus id neque sed nisi <br>
+				convallis congue. Nullam faucibus orci neque, at volutpat nisl <br>
+				sagittis ut. Morbi elementum libero vitae sollicitudin imperdiet. <br>
+				Donec vitae nibh vel neque finibus blandit. Ut ac felis a mauris <br>
+				finibus tempor non et magna. Duis fermentum malesuada interdum.
+			</p>
+			
+			<h3>Audio</h3>
+			
+			<audio controls>
+				<source src="ressources/generique.mp3" type="audio/mpeg">
+			</audio>
+			
+			<h3 style="text-transform:uppercase;">Vidéo</h3>
+			
+			<video width="320" height="240" controls>
+				<source src="ressources/wqt.mp4" type="video/mp4">
+			</video>
+		</main>
+		<footer>
+            Wikipédia&reg; est une marque déposée de Wikimedia Fundation, Inc.
+        </footer>
+    </body>
 </html>

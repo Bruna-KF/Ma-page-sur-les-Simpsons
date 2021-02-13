@@ -1,12 +1,18 @@
 @charset "UTF-8";
 
-
+a{
+	text-decoration:none;
+	background-color:red;
+	color:white;
+}
 
 #image{
-    display :block; 
-    margin :auto; 
+	display:block;
+	margin:auto;
 }
 
 .fond{
-    background-image: url("fond.png");
+	background-image:url(image/fond.png);
+	background-size:cover;
 }
+
